@@ -1,0 +1,25 @@
+{
+  "name": "dcs-docker",
+  "version": "1.0.0",
+  "description": "Scripts for running & maintaing a local copy of DCS",
+  "main": "start.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unfoldingWord-dev/dcs-docker.git"
+  },
+  "keywords": [
+    "dcs",
+    "gitea",
+    "docker"
+  ],
+  "author": "Richard Mahn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unfoldingWord-dev/dcs-docker/issues"
+  },
+  "homepage": "https://github.com/unfoldingWord-dev/dcs-docker#readme"
+}
