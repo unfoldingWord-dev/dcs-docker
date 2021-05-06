@@ -5,7 +5,7 @@
   "main": "start.js",
   "scripts": {
     "setup": "git submodule update --init --recursive",
-    "start": "npm run setup && cd profiles/default && docker-compose -p dcs up"
+    "start": "npm run setup && cd profiles/default && docker-compose -p dcs-default up"
   },
   "repository": {
     "type": "git",
