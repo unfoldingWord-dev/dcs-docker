@@ -103,8 +103,3 @@ dist
 # TernJS port file
 .tern-port
 
-# Profiles
-profiles/*
-!profiles/*.z*
-!profiles/*.yaml
-

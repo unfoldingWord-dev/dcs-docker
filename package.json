@@ -4,8 +4,8 @@
   "description": "Scripts for running & maintaing a local copy of DCS",
   "main": "start.js",
   "scripts": {
-    "setup": "node setup.js",
-    "start": "node start.js"
+    "setup": "git submodule update --init --recursive",
+    "start": "npm run setup && cd profiles/default && docker-compose -p dcs-default up"
   },
   "repository": {
     "type": "git",

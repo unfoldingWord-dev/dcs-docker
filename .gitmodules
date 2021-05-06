@@ -1,0 +1,3 @@
+[submodule "profiles/default"]
+	path = profiles/default
+	url = git@github.com:unfoldingWord-dev/dcs-profile-default.git
