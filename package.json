@@ -5,7 +5,12 @@
   "main": "start.js",
   "scripts": {
     "setup": "git submodule update --init --recursive",
-    "start": "npm run setup && cd profiles/default && docker-compose -p dcs-default up"
+    "start": "npm run setup && cd profiles/$npm_config_profile && cp ../docker-compose.yaml . && docker-compose -p dcs-$npm_config_profile up",
+    "blank": "npm start --profile=blank",
+    "unfoldingword-mirrored": "npm start --profile=unfoldingword-mirrored",
+    "unfoldingword": "npm start --profile=unfoldingword",
+    "migrate": "cd migrator && MIRROR=0 ./run-local.sh",
+    "mirror": "cd migrator && MIRROR=1 ./run-local.sh"
   },
   "repository": {
     "type": "git",

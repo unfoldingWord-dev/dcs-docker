@@ -1,3 +1,9 @@
 [submodule "profiles/default"]
 	path = profiles/default
 	url = git@github.com:unfoldingWord-dev/dcs-profile-default.git
+[submodule "profiles/blank"]
+	path = profiles/blank
+	url = git@github.com:unfoldingword-dev/dcs-profile-blank.git
+[submodule "profiles/unfoldingword-mirrored"]
+	path = profiles/unfoldingword-mirrored
+	url = git@github.com:unfoldingWord-dev/dcs-profile-unfoldingword-mirrored.git
